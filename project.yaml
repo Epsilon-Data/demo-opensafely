@@ -13,4 +13,4 @@ actions:
     run: python:v2 analysis/hello_world.py
     outputs:
       highly_sensitive:
-        log: logs/hello_world.log  # Changed from output/hello_world.log
+        dataset: output/hello_world.log  # Changed from output/hello_world.log
