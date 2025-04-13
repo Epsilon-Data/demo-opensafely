@@ -6,7 +6,7 @@
 #    outputs:
 #      highly_sensitive:
 #        dataset: output/dataset.csv.gz
-version: '1.0'
+version: '4.0'
 
 actions:
   run_hello_world:
