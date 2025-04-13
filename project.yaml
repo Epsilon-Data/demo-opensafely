@@ -1,8 +1,16 @@
-version: '4.0'
+#version: '4.0'
+#
+#actions:
+#  generate_dataset:
+#    run: ehrql:v1 generate-dataset analysis/dataset_definition.py --output output/dataset.csv.gz
+#    outputs:
+#      highly_sensitive:
+#        dataset: output/dataset.csv.gz
+version: '1.0'
 
 actions:
-  generate_dataset:
-    run: ehrql:v1 generate-dataset analysis/dataset_definition.py --output output/dataset.csv.gz
+  run_hello_world:
+    run: python analysis/hello_world.py
     outputs:
       highly_sensitive:
-        dataset: output/dataset.csv.gz
+        log: logs/hello_world.log
