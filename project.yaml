@@ -6,11 +6,11 @@
 #    outputs:
 #      highly_sensitive:
 #        dataset: output/dataset.csv.gz
-version: '4.0'
+version: '1.0'
 
 actions:
   run_hello_world:
-    run: python analysis/hello_world.py
+    run: python:v3 analysis/hello_world.py
     outputs:
       highly_sensitive:
         log: logs/hello_world.log
