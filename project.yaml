@@ -10,7 +10,7 @@ version: '1.0'
 
 actions:
   run_hello_world:
-    run: python:v3 analysis/hello_world.py
+    run: python:v2 analysis/hello_world.py
     outputs:
       highly_sensitive:
         log: logs/hello_world.log
